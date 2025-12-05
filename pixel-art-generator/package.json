@@ -1,0 +1,22 @@
+{
+  "name": "pixel-art-generator",
+  "version": "1.0.0",
+  "description": "A website for generating pixel art assets for 2D games",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["pixel art", "2d game", "asset generator", "game development"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "workspaces": [
+    "frontend",
+    "backend",
+    "core"
+  ]
+}
