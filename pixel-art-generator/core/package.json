@@ -1,0 +1,13 @@
+{
+  "name": "pixel-art-generator-core",
+  "version": "1.0.0",
+  "description": "Core algorithms for pixel art generation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jimp": "^0.16.1"
+  }
+}
